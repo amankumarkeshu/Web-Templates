@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 5em;
+  font-family: "San Francisco", "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+section {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+  text-transform: uppercase;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgb(82, 82, 82);
+  border-radius: 50%;
+  overflow-x: hidden;
+}
